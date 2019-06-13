@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    color: #262626;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.header__center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 600px;
+}
+
+.header__center__area {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+}
+
+.header__center__area__name {
+    align-self: center;
+    text-align: center;
+}
+
+.header__center__area__compass {
+    font-size: 24px;
+    margin-left: 6px;
+    align-self: flex-start;
+}
+
+.header__right {
+    border-radius: 3px;
+    border-color: #e6e6e6;
+}
