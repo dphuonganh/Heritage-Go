@@ -1,6 +1,6 @@
 # Heritage-Go
 
-OMG I spent a lot of time editing this Readme :bow: :bow: 
+OMG I spent a lot of time to edit this Readme :bow: :bow: 
 
 ## Héritage GO
 
