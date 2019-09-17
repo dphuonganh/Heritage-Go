@@ -27,7 +27,7 @@ We start with a minimal HTML page index.html:
 
 https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started
 
-<!DOCTYPE html>
+`<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -35,4 +35,4 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting
 <title>Héritage GO</title>
 </head>
 <body></body>
-</html>
+</html>`
