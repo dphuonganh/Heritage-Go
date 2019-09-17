@@ -11,7 +11,7 @@
 
 **Heritage Observatory**: https://www.heobs.org/
 
-![heritagego_homepage.png]()
+![heritagego_homepage.png](https://github.com/dphuonganh/Heritage-Go/blob/master/heritagego_homepage.png)
 
 
 ## Fundamentals
@@ -39,7 +39,7 @@ You can open with your favorite browser the `index.html` you have just created:
 
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title
 
-![heritagego_undefined_charset.png]()
+![heritagego_undefined_charset.png](https://github.com/dphuonganh/Heritage-Go/blob/master/heritagego_undefined_charset.png)
 
 
 ## Character Encoding Issue
@@ -48,7 +48,7 @@ You will already notice that the title "**Hérigate GO**" displayed in the tab o
 
 **Character Encoding Issue** : http://kunststube.net/encoding/
 
-![heritagego_encoding_issue.png]()
+![heritagego_encoding_issue.png](https://github.com/dphuonganh/Heritage-Go/blob/master/heritagego_encoding_issue.png)
 
 
 # Waypoint 2: Specify Character Encoding
@@ -88,7 +88,7 @@ You can now reload your `index.html` file in your browser. Better, uh?!
 
 **Declare the webpage**: https://www.w3schools.com/tags/att_meta_charset.asp
 
-![heritagego_utf8_charset_defined.png]()
+![heritagego_utf8_charset_defined.png](https://github.com/dphuonganh/Heritage-Go/blob/master/heritagego_utf8_charset_defined.png)
 
 
 ## Waypoint 3: Define Web Page Description
@@ -108,7 +108,7 @@ Add the content "Héritage GO is the community for heritage lovers." in a meta d
 
 For example:
 
-![heritagego_favicon_examples.png]()
+![heritagego_favicon_examples.png](https://github.com/dphuonganh/Heritage-Go/blob/master/heritagego_favicon_examples.png)
 
 
 ## Favicon
@@ -135,7 +135,7 @@ Works better, right?
 
 **Favicon Generator**:https://realfavicongenerator.net/
 
-![heritagego_with_favicon_defined.png]()
+![heritagego_with_favicon_defined.png](https://github.com/dphuonganh/Heritage-Go/blob/master/heritagego_with_favicon_defined.png)
 
 
 ## Waypoint 5: Define Header HTML Element Structure
@@ -154,7 +154,7 @@ The header section of the Héritage GO Web page is horizontally composed of:
 
 Update your HTML code to add these elements following these specifications:
 
-![Screen_Shot_2019-03-21_at_8.44.38_AM.png]()
+![Screen_Shot_2019-03-21_at_8.44.38_AM.png](https://github.com/dphuonganh/Heritage-Go/blob/master/Screen_Shot_2019-03-21_at_8.44.38_AM.png)
 
 
 ## Blocks, Elements and Modifiers (BEM)
@@ -171,14 +171,14 @@ Don't worry from now about the exact positioning of your HTML elements on the pa
 
 **BEM101**: https://css-tricks.com/bem-101/
 
-![heritagego_layout_no_positioning.png]()
+![heritagego_layout_no_positioning.png](https://github.com/dphuonganh/Heritage-Go/blob/master/heritagego_layout_no_positioning.png)
 
 
 ## Waypoint 6: Position Header HTML Elements
 
 We are going to position and align the header's HTML elements as follows:
 
-![heritagego_header_desktop_layout.png]()
+![heritagego_header_desktop_layout.png](https://github.com/dphuonganh/Heritage-Go/blob/master/heritagego_header_desktop_layout.png)
 
 
 ## CSS
@@ -197,7 +197,7 @@ The photograph feed section is displayed in the body of the HTML page. The conte
 
 Update the HTML code and edit the CSS code to add these following requirements:
 
-![Screen_Shot_2019-03-16_at_10.44.36_AM.png]()
+![Screen_Shot_2019-03-16_at_10.44.36_AM.png](https://github.com/dphuonganh/Heritage-Go/blob/master/Screen_Shot_2019-03-16_at_10.44.36_AM.png)
 
 
 ## Flexbox
@@ -220,7 +220,7 @@ https://www.w3schools.com/css/css3_flexbox.asp
 
 https://css-tricks.com/autoprefixer/"
 
-![heritagego_header_layout_flexbox.png]()
+![heritagego_header_layout_flexbox.png](https://github.com/dphuonganh/Heritage-Go/blob/master/heritagego_header_layout_flexbox.png)
 
 
 ## Waypoint 7: Logo Scaling with Transition
@@ -263,14 +263,14 @@ The transition needs to start **quickly**, and **decelerates gradually until the
 
 The correct final animation of the logo image is the following:
 
-![logo-image-correct-animation.gif]()
+![logo-image-correct-animation.gif](https://github.com/dphuonganh/Heritage-Go/blob/master/logo-image-correct-animation.gif)
 
 
 ## Smooth Transition
 
 The following animation of the logo image is missing the smooth transition back to the normal size of the logo image:
 
-![logo-image-wrong-animation.gif]()
+![logo-image-wrong-animation.gif](https://github.com/dphuonganh/Heritage-Go/blob/master/logo-image-wrong-animation.gif)
 
 
 ## Warning
@@ -309,7 +309,7 @@ Spinning the compass icon is quite easy. We simply need to define a transition o
 
 **keyframes**: https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes
 
-![heritagego-compass-icon-spinning-around.gif]()
+![heritagego-compass-icon-spinning-around.gif](https://github.com/dphuonganh/Heritage-Go/blob/master/heritagego-compass-icon-spinning-around.gif)
 
 
 ## Update
@@ -337,21 +337,21 @@ We need to update the CSS code of our web page so that when the user shrinks the
 
 The page should appear this way on a mobile phone:
 
-![heritagego_header_mobile_layout.png]()
+![heritagego_header_mobile_layout.png](https://github.com/dphuonganh/Heritage-Go/blob/master/heritagego_header_mobile_layout.png)
 
 
 ## Update
 
 Update the HTML code and create the CSS code to add these following requirements when the size of the screen is under 600 px:
 
-![Screen_Shot_2019-03-16_at_11.55.56_AM.png]()
+![Screen_Shot_2019-03-16_at_11.55.56_AM.png](https://github.com/dphuonganh/Heritage-Go/blob/master/Screen_Shot_2019-03-16_at_11.55.56_AM.png)
 
 
 ## End result
 
 The end result should be similar to the following:
 
-![heritagego_header_web_responsive_design.gif]()
+![heritagego_header_web_responsive_design.gif](https://github.com/dphuonganh/Heritage-Go/blob/master/heritagego_header_web_responsive_design.gif)
 
 
 ## Waypoint 10: Integrate Héritage GO RESTful API JavaScript Library
@@ -364,7 +364,7 @@ This script relies on a fast, small, and feature-rich JavaScript library: **jQue
 
 To include this JavaScript library, you can download file `jquery-x.y.z.min.js` to your `js` folder, and **reference it in your HTML document** as follows:
 
-```javascript
+```
 <script src="js/jquery-3.2.1.min.js"></script>
 ```
 
@@ -458,7 +458,7 @@ crossorigin="anonymous"
 
 Create a modal component with the following layout:
 
-![heritagego_login_dialog-box_01.png]()
+![heritagego_login_dialog-box_01.png](https://github.com/dphuonganh/Heritage-Go/blob/master/heritagego_login_dialog-box_01.png)
 
 
 ## Log In
@@ -475,7 +475,7 @@ The email address and the password edit fields MUST contain hints that describe 
 
 **Label**: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label
 
-![heritagego_login_dialog-box_02.png]()
+![heritagego_login_dialog-box_02.png](https://github.com/dphuonganh/Heritage-Go/blob/master/heritagego_login_dialog-box_02.png)
 
 
 ## Waypoint 12: Display Placeholder Floating Labels
@@ -490,7 +490,7 @@ You will use **placeholders** `Email address` and `Password`, and you will imple
 
 **Accessible CSS**: https://medium.com/@eugeniolujambioaccessible-css-only-floating-labels-74bf9173bc5f
 
-![heritagego-floating-labels.gif]()
+![heritagego-floating-labels.gif](https://github.com/dphuonganh/Heritage-Go/blob/master/heritagego-floating-labels.gif)
 
 
 ## Waypoint 13: Toggle Password Visibility
@@ -499,7 +499,7 @@ Hiding passwords visibility in forms helps protect from people looking over user
 
 We would like to allow our users to toggle password field text visibility on and off so that they have a quickly show if they have misspelt their password.
 
-![heritagego-toggle-password-visibilty.gif]()
+![heritagego-toggle-password-visibilty.gif](https://github.com/dphuonganh/Heritage-Go/blob/master/heritagego-toggle-password-visibilty.gif)
 
 
 ## LogIn Operations
@@ -533,7 +533,7 @@ The layout photo post is composed of:
 10. Edit field that allows the user to enter and post a comment to this photo.
 **Rephotography**: https://en.wikipedia.org/wiki/Rephotography
 
-![heritagego_photo_post_layout.gif]()
+![heritagego_photo_post_layout.gif](https://github.com/dphuonganh/Heritage-Go/blob/master/heritagego_photo_post_layout.gif)
 
 
 ## Update
@@ -551,7 +551,7 @@ The most recent published photographs appear on the top of the feed. The user ca
 
 Each photograph is vertically separated from another by a margin of 20 pixels.
 
-![heritagego-photo-feed-layout.gif]()
+![heritagego-photo-feed-layout.gif](https://github.com/dphuonganh/Heritage-Go/blob/master/heritagego-photo-feed-layout.gif)
 
 ## Layout
 Define the HTML layout of the photograph feed.
@@ -763,7 +763,7 @@ We would like our users see the content of the photograph feed scroll behind the
 
 **opacity**: https://developer.mozilla.org/en-US/docs/Web/CSS/opacity
 
-![heritagego-transparent-header.gif]()
+![heritagego-transparent-header.gif](https://github.com/dphuonganh/Heritage-Go/blob/master/heritagego-transparent-header.gif)
 
 
 ## Blur
@@ -776,7 +776,7 @@ We need to **blur** the content of the feed that scrolls behind the header so th
 
 **blur**: https://en.wikipedia.org/wiki/Gaussian_blur
 
-![heritagego-blurred-content-behind-header.gif]()
+![heritagego-blurred-content-behind-header.gif](https://github.com/dphuonganh/Heritage-Go/blob/master/heritagego-blurred-content-behind-header.gif)
 
 
 ## Update
@@ -794,14 +794,14 @@ The caption of a photograph is used to index this photograph to support full-tex
 
 **Full Text Search**: https://en.wikipedia.org/wiki/Full-text_search
 
-![db3210cc-5c79-11e8-9e03-0007cb040bcc.png]()
+![db3210cc-5c79-11e8-9e03-0007cb040bcc.png](https://github.com/dphuonganh/Heritage-Go/blob/master/db3210cc-5c79-11e8-9e03-0007cb040bcc.png)
 
 
 ## Caption
 
 The problem is that the caption of most of the old photographs of this bridge is not written is Vietnamese, but in French with the initial French name of this bridge "Pont des Messageries Maritimes".
 
-![5764351022_15f5d7e128_b.png]()
+![5764351022_15f5d7e128_b.png](https://github.com/dphuonganh/Heritage-Go/blob/master/5764351022_15f5d7e128_b.png)
 
 
 ## Crowdsourcing
@@ -846,21 +846,21 @@ Wouldn't you be able to translate the caption of the following photograph in Vie
 
 **Importance of Crowdsourcing**: https://www.entrepreneur.com/article/307438
 
-![heritagego-translation-icon.png]()
+![heritagego-translation-icon.png](https://github.com/dphuonganh/Heritage-Go/blob/master/heritagego-translation-icon.png)
 
 
 ## User's Preferred Languages
 
 How can we know which languages the user speaks? This is actually defined in the preferences that the user has configured in his browser. For instance:
 
-![heritagego-firefox-preferences.png]()
+![heritagego-firefox-preferences.png](https://github.com/dphuonganh/Heritage-Go/blob/master/heritagego-firefox-preferences.png)
 
 
 ## Choose Language
 
 The user can choose several languages he speaks:
 
-![heritagego-firefox-language-settings.png]()
+![heritagego-firefox-language-settings.png](https://github.com/dphuonganh/Heritage-Go/blob/master/heritagego-firefox-preferences.png)
 
 
 ## Language
@@ -969,21 +969,21 @@ When the user clicks on the translation icon, the web application stops the shak
 
 **ISO 3166-1**: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
-![heritagego-languages-translator-selection.png]()
+![heritagego-languages-translator-selection.png](https://github.com/dphuonganh/Heritage-Go/blob/master/heritagego-languages-translator-selection.png)
 
 
 ## Change Language
 
 When the user clicks on a flag, the web application lets the user enter the translation of the photo's caption in the selected language.
 
-![heritagego-localized-caption-edition.png]()
+![heritagego-localized-caption-edition.png](https://github.com/dphuonganh/Heritage-Go/blob/master/heritagego-localized-caption-edition.png)
 
 
 ## Waypoint 20: Improve UX for Translating Photograph Captions
 
 It's actually a bad idea to use a country flag to represent a language. **Country flags are not languages**. Canada is a country. Canadian is not a language. English and French are the official languages of Canada.
 
-French is the or one of the official languages of **numerous countries**. France is probably not the main country who is leading the Francophonie movement the most. Why France should be the best representation for the French language? Would Belgium people easily accept to click on the flag of France to indicate that they speak French? You are going to hurt their feeling!
+French is the or one of the official languages of **numerous countries**. France is probably not the main country who is leading the Francophonie movement the most. Why France should be the best representation for the French language? Would Belgium people easily accept to click on the flag of France to indicate that they speak French? You are going to hurt their feeling! 😆
 
 **Don't use flags to indicates languages!**
 
