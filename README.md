@@ -1,5 +1,6 @@
 # Heritage-Go
 
+OMG I spent a lot of time editing this Readme :bow: :bow: 
 
 ## Héritage GO
 
