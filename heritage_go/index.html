@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Héritage GO</title>
+    <meta name="description" content="Héritage GO is the community for heritage lovers.">
+    <link rel="shortcut icon" href="img/favicon-16x16.png" type="image/x-icon">
+    <!--Font awsome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!--Main js-->
+    <script src="./js/main.js"></script>
+    <!--jquery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT"
+            crossorigin="anonymous"></script>
+    <script src="./js/heritagego-service.1.0.0.js"></script>
+    <!--Custom css-->
+    <link rel="stylesheet" href="./css/main.css" /></link>
+</head>
+<body>
+<header>
+    <div></div>
+    <div class="header__center">
+        <!-- logo image -->
+        <div class="header__logo">
+            <img src="./img/heritagego_logo_128x73.png" alt="Héritage GO logo" class="header__logo__img">
+        </div>
+        <!-- text area -->
+        <div class="header__area">
+            <div class="header__name">
+                <p><strong>Hồ Chí Minh city</strong></p>
+                <p>Vietnam</p>
+            </div>
+            <!-- Compass -->
+            <div class="header__compass"><i class="far fa-compass"></i></div>
+        </div>
+    </div>
+    <div>
+        <!-- Login Button -->
+        <button type="button" class="login-button" data-toggle="modal" data-target="#login-screen">Login</button>
+    </div>
+</header>
+<main>
+    <!--Photo layout -->
+    <div class="photo-layout" id="defaultPost" hidden>
+        <!-- header -->
+        <div class="layout-header">
+            <!--Avatar image-->
+            <img src="./mockup/mockup_avatar.png" alt="layout-avatar" class="avatar">
+            <!--Image caption-->
+            <div class="text-layout">
+                <div class="text-info">
+                    <p class="photo-text">
+                        248A Nơ Trang Long, Phường 12, Bình Thạnh, Hồ Chí Minh 123 123 123 123 123 123 123 123
+                    </p>
+                    <form class="post-new-text" style="display:none">
+                        <input type="text" class="form-control">
+                    </form>
+                    <button type="button" class="translate-icon post-translate translate-icon-shake translate-icon-noborder translate-button" id="translation" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="./img/translate.png" alt="translation" class="translation">
+                    </button>
+                    <div class="dropdown-menu language-choice" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">English</a>
+                        <a class="dropdown-item" href="#">France</a>
+                        <a class="dropdown-item" href="#">Vietnamese</a>
+                    </div>
+                </div>
+                <!--photo location and time-->
+                <div class="text-time-location">
+                    <div class="mr-4 photo-loc-time">
+                        <i class="fas fa-map-marker-alt"></i> 
+                        <span class="photo-area-name">Sai Gon Viet Nam</span>
+                    </div>
+                    <div class="photo-loc-time">
+                       <i class="far fa-clock"></i> 
+                       <spa class="photo-time">1965</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- heritage images-->
+        <img class="heritage-image" src="./img/maplestory-black-heaven.jpg" alt="">
+        <!---->
+        <div class="photo-widget">
+            <div class="number-info">
+                    <i class="fas fa-heart"></i><span class="count-like"></span>
+            </div>
+            <div class="number-info">
+                <i class="fas fa-comment"></i><span class="count-comment"></span>
+            </div>
+            <div class="number-info">
+                <i class="fas fa-camera"></i><span class="count-view"></span>
+            </div>
+            <div class="ml-auto photo-bookmark">
+                <i class="fas fa-bookmark"></i><span class="check-bookmark"></span>
+            </div>
+        </div>
+        <!--Photo comment section-->
+        <div class="comment-section">
+            <div class="input-place">
+                <input type="text" class="form-control" placeholder="Write a comment">
+                <button class="send-button">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</main>
+<!-- Login Modal -->
+<div class="modal" id="login-screen">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h2 class="form-signin-heading">Log in</h2>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+            <!--Login form-->
+            <div class="modal-form">
+                <input type="text" id="name" class="form-control" required>
+                <label class="form-input" for="name"><b>Email address</b></label>
+            </div>
+            <!--password-->
+            <div class="modal-form">
+                <input type="password" id="password" class="form-control" required>              
+                <label class="form-input" for="password"><b>Password</b></label>
+                <button class="btn btn-light btn--showpassword" type="submit" onclick="show_password()">
+                    <i class="fas fa-lock" id="password_button"></i>
+                </button>
+            </div>
+        </div>     
+        <div class="modal-footer"> 
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+        </div> 
+    </div>
+</div>
+</body>
+</html>

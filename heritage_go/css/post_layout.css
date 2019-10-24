@@ -1,0 +1,92 @@
+@media (max-width: 600px){
+    .photo{
+        width: 100% !important;
+    }
+
+    .photo__text{
+        width: 80%;
+        font-size: 2.3vw !important;
+        overflow: hidden;
+        text-overflow: ellipsis
+    }
+}
+
+.photo{
+    width: 600px;
+    border: 1px solid #cfcfcf;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.photo__avatar{
+    width: auto;
+    height: auto;
+    max-width: 60px;
+    max-height: 60px;
+}
+
+.photo__holder{
+    margin: 10px;
+}
+
+.photo__loctime{
+    margin-right: 10%;
+    font-size: 13px;
+}
+
+.photo__img{
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+.photo__caption{
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.photo__text{
+    height: 40px;
+    font-size: 14px;
+}
+
+@keyframes swing{
+    from {transform: rotate(-20deg);}
+    50% {transform: rotate(20deg);}
+    to {transform: rotate(-20deg);}
+}
+
+.photo__translate{
+    width: 24px;
+    height: 24px;
+    animation-name: swing;
+    animation-duration: 0.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.photo__number{
+    margin-left: 4%;
+    margin-right: 8%;
+}
+
+.photo__bookmarkbtn{
+    margin-right: 4%;
+}
+
+.photo__holder--underline{
+    padding-bottom: 8px;
+    border-bottom: 1px solid #cfcfcf;
+    margin-bottom: 0;
+}
+
+.photo__sendbtn{
+    box-shadow: none !important;
+}
+
+.photo__commentsection{
+    padding: 2px 10px 2px 10px;
+    margin: 10px;
+    border: 1px solid #cfcfcf;
+    border-radius: 20px;
+}
